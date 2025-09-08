@@ -8,7 +8,7 @@ const platform = os.platform();
 const asyncExecute = promisify(exec);
 
 const history = [];
-const genAI = new GoogleGenerativeAI("AIzaSyCIshZOLOZRZUX7x81gkDeO7nxuBZvapAE"); // Add your actual API key
+const genAI = new GoogleGenerativeAI(""); // Add your actual API key
 
 // Tool to execute terminal/shell commands
 async function executeCommand({ command }) {
